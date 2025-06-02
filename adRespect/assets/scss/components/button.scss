@@ -1,0 +1,83 @@
+// @import "../colors.scss";
+// Components {
+
+//EndComponents }
+.btn {
+  // display: flex;
+  padding: 12px 24px 14px 24px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 200px;
+  // color: var(--grey, #F5F0EC);
+  // background-color: red;
+  // background-color: greenyellow;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  //   line-height: 50px;
+}
+
+// .btn-success {
+//   //   background-color: $green;
+// }
+
+// .btn-outline-success {
+//   // background-color: $white;
+//   font-weight: 400;
+// }
+
+// .btn-white {
+//   //   color: white;
+//   //   background-color: white;
+// }
+
+.ar-down::after,
+.ar-up::after,
+.ar-right::after {
+  //Create FontAwesome icons in buttons
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  margin-left: 5px;
+  //content: "\f063";
+  //   font-size: 5px;
+}
+
+.ar {
+  &-down::after {
+    content: "\f063";
+  }
+  &-up::after {
+    content: "\f062";
+  }
+
+  &-right::after {
+    content: "\f061";
+  }
+
+  &-left::after {
+    content: "\f060";
+  }
+
+  &-right::after:hover path {
+    fill: yellow;
+  }
+}
+
+.btn-beige {
+  background-color: #dcc1ab;
+}
+
+.plus-icon {
+  background-image: url('data:image/svg+xml;<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path d="M7.99528 -1.20755e-06L7.09959 0.895696L13.5769 7.36358L-7.5502e-07 7.36358L-6.43745e-07 8.63642L13.5675 8.63642L7.09959 15.1043L7.99529 16L16 7.99529L7.99528 -1.20755e-06Z" fill="#0000ff"/></svg>');
+  // background-color: currentColor;
+  // border: 1px solid rgb(29, 190, 96);
+  // border-radius: 15px;
+}
+
+.iconclass {
+  width: 16px;
+  height: 16px;
+}
