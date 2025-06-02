@@ -11,4 +11,4 @@ Responsive website with 4 viewport breakpoints
 
 
 # Live Demo
-[Live Demo hosted on GitHub Pages](https://se7en.pl/projects/adRespect/)
+[Live Demo hosted on GitHub Pages](https://se7enek.github.io/webprojects/adRespect/)
