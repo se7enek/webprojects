@@ -11,8 +11,8 @@ request.setRequestHeader("Access-Control-Allow-Headers", "Origin, Content-Type, 
 
 request.setRequestHeader("Accept", "application/vnd.allegro.public.v1+json");
 request.setRequestHeader("content-type", "application/vnd.allegro.public.v1+json");
-request.setRequestHeader("Authorization", "Bearer 1PRUtX4EoSoKUTQ10OgwtNWgMTwA7Q7LKhkeZkR6Eoh06JRukzv7c4m3OS6y6xvS");
-request.setRequestHeader("Api-Key", "714ecb076db749bcb886df0768fed6ff");
+request.setRequestHeader("Authorization", "Bearer XXXXXXXXXXXXX");
+request.setRequestHeader("Api-Key", "XXXXXXXXXXXXXX");
 
 
 request.onload = function () {
