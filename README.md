@@ -1,2 +1,2 @@
 # webprojects
-Collection of Scripts made for personal use
+Collection of Website made as process of learning/recruitment/freelance
