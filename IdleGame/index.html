@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <title>Hero Cards</title>
+</head>
+<body>
+      
+    <div class="powiadomienie"><span id="powiadomienie_txt">Tekst_Powiadomienia</span></div>
+    <div id="info">?</div>
+    <div id="info-popup-bg">
+        <div id="info-close">X</div>
+        <div id="info-popup">
+            <div class="tekst">
+                1. Klikaj w obrazek, aż zabijesz pierwszego potwora<br>
+                2. Kupuj bohaterów i ustawiaj ich do walki<br>
+                3. W zależności od aktualnego potwora, różni bohaterowie będą zadawali inne obrażenia<br>
+                4. Twoja broń zmienia się automatycznie, by osiągnąć maksymalną skuteczność<br>
+                5. W wyborze bohatera, pomoże Ci poniższy obrazek:<br>
+            </div>
+            <div class="trio">
+                <img src="img/trio.png">
+            </div>
+            <p>(kliknij gdziekolwiek, aby zamknąć tę pomoc)</p>
+        </div>
+    </div>
+
+
+    <div id="bohaterowie"></div>
+
+    <div id="gold"><div class="shape"><span>100</span></div></div>
+
+    <div id="prawo">
+        <div id="arena">
+            <div id="bronie">
+                <div class="bron" id="wojownik"><img src="./img/bronie/miecz_icon.png" width="50px" height="50px"></div>
+                <div class="bron" id="lucznik"><img src="./img/bronie/luk_icon.png" width="50px" height="50px"></div>
+                <div class="bron" id="mag"><img src="./img/bronie/rozdzka_icon.png" width="50px" height="50px"></div>
+            </div>
+            <div id="walka">
+                <div id="overlay">
+                    <img>
+                </div>
+                <div id="wrog"><p>Nazwa_przeciwnika</p></div>
+                <img id="img_wrog">
+                <div id="zycie">
+                    <div id="hpbar"></div>
+                    <span>100/100 HP</span>
+                </div>
+            </div>
+            <div id="wybrani">
+                <div class="slot" id="slot1"></div>
+                <div class="slot" id="slot2"></div>
+                <div class="slot" id="slot3"></div>
+            </div>
+            <div id="staty">
+                <p id="dps">DPS Bohaterów: 0</p>
+                <p id="click-dps">Obrażenia Kliku: 1</p>
+            </div>
+        </div>
+    </div>
+<script src="js/main.js"></script>
+</body>
+</html>
